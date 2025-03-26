@@ -5,3 +5,32 @@ Video 4:  Done in 19/3/2025
 Video 5:  Done in 19/3/2025
 Video 6:  Done in 21/3/2025
 Video 7:  Done in 21/3/2025
+Video 8:  Done in 25/3/2025
+Video 9:  Done in 25/3/2025
+Video 10: Done in 25/3/2025
+Video 11: Done in 25/3/2025
+Video 12: Done in 25/3/2025
+Video 13: Done in 25/3/2025
+Analysis 1 : Structure of All pieces and Type of Programming (Stored in Obsidian)
+Video 14: Done in 26/3/2025
+I need to work this again to understand the Building Design Pattern and how this works...
+This video 14 is all I have done today in Chess and is respectable progress...
+There are a lot of things going on here. First he is using the Builder design pattern in Java.
+And I understood nothing of the implementation process. o approach the task methodically, I will
+ do some research on Builder design pattern first.
+
+
+
+
+
+
+
+Notes:
+1. He is talking about Unit test which seems like a very interesting Idea. How to design a function
+   that checks weather or not another set of functions and data structure works as intended or not.
+   To write the Unit test we need first to reach a critical mass to do so.
+2. Every now and then I will be making an analysis of what he is doing and how can we apply these
+   concepts in a new independent application. This analysis aims to come up with a Know How. Something like
+   if we want to do something based on the sample observations of this project how can we do it. This maybe
+   technically not important but for me it is of great importance. It is the way I learn how to code software
+   through seeing and imitating the software of other people.

@@ -9,9 +9,7 @@ import static com.chess.engine.board.BoardUtils.NUM_TILES;
 
 public abstract class Tile {
 
-
     protected final int tileCoordinate; //This is for Immutability
-
     private static final Map<Integer, EmptyTile> EMPTY_TILES_CACHE = createAllPossibleTiles();
 
     private static Map<Integer, EmptyTile> createAllPossibleTiles() {
@@ -23,7 +21,7 @@ public abstract class Tile {
 
     }
 
-    public static Tile CreateTile(final int tileCoordinate, final Piece piece){
+    public static Tile createTile(final int tileCoordinate, final Piece piece){
         return piece!=null ? new OccupiedTile(tileCoordinate,piece) : EMPTY_TILES_CACHE.get(tileCoordinate);
     }
 
@@ -65,7 +63,6 @@ public abstract class Tile {
         @Override
         public Piece getPiece(){
             return pieceOnTile;
-
         }
     }
 }

@@ -37,9 +37,4 @@ public abstract class Move {
             this.acttackedPiece = acttackedPiece;
         }
     }
-
-
-
-
-
 }
