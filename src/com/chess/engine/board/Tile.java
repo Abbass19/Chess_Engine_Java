@@ -33,8 +33,14 @@ public abstract class Tile {
     public abstract Piece getPiece();
 
     public static final class EmptyTile extends Tile{
+
+
         EmptyTile(final int coordinate) {
             super(coordinate);
+        }
+        @Override
+        public String toString(){
+            return "-";
         }
         @Override
         public boolean isTileOccupied(){
@@ -56,6 +62,11 @@ public abstract class Tile {
         }
 
         @Override
+        public String toString(){
+            return getPiece().getPieceAlliance().isBlack() ? getPiece().toString().toLowerCase(): getPiece().toString();
+
+        }
+        @Override
         public boolean isTileOccupied(){
             return true;
         }
@@ -65,6 +76,8 @@ public abstract class Tile {
             return pieceOnTile;
         }
     }
+
+
 }
 
 //This class is now Immutable. We have no way of mutating this class. Then this is immutable.

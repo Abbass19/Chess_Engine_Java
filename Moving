@@ -19,6 +19,11 @@ There are a lot of things going on here. First he is using the Builder design pa
 And I understood nothing of the implementation process. o approach the task methodically, I will
  do some research on Builder design pattern first.
 
+Video 15: Done in 4/4/2025 .I didn't understand really well but I needed to move on. I got better with the builder class
+Regarding Video 15 I have a very big problem I need to go to the source code so that I can fix it and continue to work properly
+    My problem is regarding the variable named "bool FirstMove". I guess if I clear this mistake I can move ahead.
+    Although I will not learning everything but I guess it is better than not containing this. For the Github repository
+
 
 
 
